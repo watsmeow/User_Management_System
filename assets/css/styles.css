@@ -217,13 +217,14 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color: lightpink;
+    background-color: var(--dark);
     border: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
     cursor: pointer;
     border-radius: .2em;
     margin: .5em;
+    color: var(--light);
 }
 
 #update_user .form-group .btn:hover,
